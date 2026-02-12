@@ -51,7 +51,26 @@ app.get('/healthz', (req, res) => {
 
 // PayPay payment callback - redirect to AppClip
 app.get('/paypay-return', (req, res) => {
-  res.redirect('https://appclip-test.vercel.app/');
-});  
-
+  res.type('html').send(`
+    <!doctype html>
+    <html>
+      <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <title>Payment Complete</title>
+      </head>
+      <body style="display:flex; flex-direction:column; align-items:center; justify-content:center; min-height:100vh; margin:0; font-family:-apple-system,sans-serif; background:#f5f5f5;">
+        <div style="background:white; border-radius:16px; padding:40px; text-align:center; box-shadow:0 2px 10px rgba(0,0,0,0.1); max-width:320px; width:90%;">
+          <div style="font-size:48px; margin-bottom:16px;">✅</div>
+          <h1 style="font-size:20px; color:#333; margin:0 0 8px;">決済完了</h1>
+          <p style="font-size:14px; color:#666; margin:0 0 24px;">アプリに戻って続けてください</p>
+          <a href="https://appclip-test.vercel.app/"
+             style="display:block; background:linear-gradient(#F4A144,#F27E20); color:white; text-decoration:none; padding:14px; border-radius:25px; font-size:16px; font-weight:600;">
+            アプリに戻る
+          </a>
+        </div>
+      </body>
+    </html>
+  `)
+});
 export default app
