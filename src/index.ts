@@ -49,9 +49,9 @@ app.get('/healthz', (req, res) => {
   res.status(200).json({ status: 'ok', timestamp: new Date().toISOString() })
 })
 
-// PayPay payment callback - redirect to AppClip     ← THÊM ĐOẠN NÀY
-app.get('/paypay-return', (req, res) => {             ← 
-  res.redirect('https://appclip-test.vercel.app/');   ← 
+// PayPay payment callback - redirect to AppClip
+app.get('/paypay-return', (req, res) => {
+  res.redirect('https://appclip-test.vercel.app/');
 });  
 
 export default app
