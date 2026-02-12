@@ -63,11 +63,10 @@ app.get('/paypay-return', (req, res) => {
         <div style="background:white; border-radius:16px; padding:40px; text-align:center; box-shadow:0 2px 10px rgba(0,0,0,0.1); max-width:320px; width:90%;">
           <div style="font-size:48px; margin-bottom:16px;">✅</div>
           <h1 style="font-size:20px; color:#333; margin:0 0 8px;">決済完了</h1>
-          <p style="font-size:14px; color:#666; margin:0 0 24px;">アプリに戻って続けてください</p>
-          <a href="https://appclip-test.vercel.app/"
-             style="display:block; background:linear-gradient(#F4A144,#F27E20); color:white; text-decoration:none; padding:14px; border-radius:25px; font-size:16px; font-weight:600;">
-            アプリに戻る
-          </a>
+          <p style="font-size:14px; color:#666; margin:0 0 16px;">左上の「◀ PayPay」をタップして<br/>アプリに戻ってください。<br/>自動的にバッテリーが準備されます。</p>
+          <div style="background:#FFF5E9; border-radius:12px; padding:16px; margin-top:8px;">
+            <p style="font-size:13px; color:#F27E20; margin:0; font-weight:600;">← 左上をタップ</p>
+          </div>
         </div>
       </body>
     </html>
