@@ -1,7 +1,16 @@
 {
-  "appclips": {
-    "apps": [
-      "JJ3BB9QZ7L.com.powerbank.staging.app.AppClip"
+  "applinks": {
+    "details": [
+      {
+        "appIDs": [
+          "JJ3BB9QZ7L.com.powerbank.prod.app.AppClip"
+        ],
+        "components": [
+          {
+            "/": "*"
+          }
+        ]
+      }
     ]
   }
 }
