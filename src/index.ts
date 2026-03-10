@@ -14,7 +14,8 @@ app.get('/', (req, res) => {
     <html>
       <head>
         <meta charset="utf-8"/>
-        <title>Express on Vercel</title>
+        <meta name="apple-itunes-app" content="app-clip-bundle-id=com.powerbank.prod.app.AppClip, app-clip-display=card">
+        <title>cocofull-charge</title>
         <link rel="stylesheet" href="/style.css" />
       </head>
       <body>
