@@ -3,8 +3,6 @@
     "details": [
       {
         "appIDs": [
-          "JJ3BB9QZ7L.com.powerbank.dev.app",
-          "JJ3BB9QZ7L.com.powerbank.staging.app",
           "JJ3BB9QZ7L.com.powerbank.prod.app"
         ],
         "components": [
@@ -17,8 +15,6 @@
   },
   "appclips": {
     "apps": [
-      "JJ3BB9QZ7L.com.powerbank.dev.app.AppClip",
-      "JJ3BB9QZ7L.com.powerbank.staging.app.AppClip",
       "JJ3BB9QZ7L.com.powerbank.prod.app.AppClip"
     ]
   }
