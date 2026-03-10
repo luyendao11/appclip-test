@@ -4,7 +4,7 @@
     "details": [
       {
         "appIDs": [
-          "JJ3BB9QZ7L.com.powerbank.prod.app"
+          "JJJ8B9QZ7L.com.powerbank.prod.app"
         ],
         "components": [
           {
@@ -16,7 +16,7 @@
   },
   "appclips": {
     "apps": [
-      "JJ3BB9QZ7L.com.powerbank.prod.app.AppClip"
+      "JJJ8B9QZ7L.com.powerbank.prod.app.AppClip"
     ]
   }
 }
